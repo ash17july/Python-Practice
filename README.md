@@ -15,3 +15,4 @@ Why Python?
   ->it has a simple syntax
    ->it runs on interpreter system
    
+*Creation of variable
