@@ -13,6 +13,7 @@
 * Keywords are the reserved keyword in python, they are case sensitive
 * There are 33 keywords in Python
 * We cannot use keywords as a variable name or function
+
 ###Identifiers:-
 * An identifier is a name given to entities like class, functions, variables, etc. It helps to differentiate one entity from another.
 * They are combination of both lowercase and uppercase
