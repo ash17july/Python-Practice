@@ -57,5 +57,23 @@ multi-line comments"""
 6. Set
 7. Dictionary
 
-##### Conversion of data types
-* 
+##### Conversion:-
+* The process of converting the value of one data type (integer, string, float, etc.) to another data type is called type conversion.
+1. Implicit 
+2. Explicit
+
+###### Implicit type conversion:-
+* In Implicit type conversion, Python automatically converts one data type to another data type
+c = 10.5
+type would be float conversion would be int(c)
+
+##### Explicit type conversion:-
+* In Explicit Type Conversion, users convert the data type of an object to required data type. We use the predefined functions like int(), float(), str(), etc to perform explicit type conversion.
+     #### Key Points to Remember:-
+     * Type Conversion is the conversion of object from one data type to another data type.
+     * Implicit Type Conversion is automatically performed by the Python interpreter.
+     * Python avoids the loss of data in Implicit Type Conversion.
+     * Explicit Type Conversion is also called Type Casting, the data types of objects are converted using predefined functions by the user.
+     * In Type Casting, loss of data may occur as we enforce the object to a specific data type.
+
+### Operator:-
