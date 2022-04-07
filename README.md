@@ -77,3 +77,42 @@ type would be float conversion would be int(c)
      * In Type Casting, loss of data may occur as we enforce the object to a specific data type.
 
 ### Operator:-
+* Operators are special symbol in python that carry out arithematic or logical computation
+   * There are types of operator:-
+   1. Arithematic operators
+   2. Comparison operators
+   3. Logical operators
+   4. Membership operators
+   5. Bitwise operators
+   6. Assignment operators
+   7. Identity operators
+
+###### Arithematic operators:
+  * a + b
+  * a * b
+  * a / b
+  * a // b
+  * a % b
+
+###### Comparison operators:-
+   * Comparison operators are used to compare values. It returns either True or False according to the condition.
+   * x > y
+   * x >= y
+   * x < y
+   * x <= y
+   * x == y
+   * x != y
+
+###### Logical operator :
+    * Logical operators are the and, or, not operators.
+    * x = True
+      y = False
+      print('x and y is',x and y)
+      print('x or y is',x or y)
+      print('not x is',not x)
+      
+###### Bitwise operator:-
+     * Bitwise operators act on operands as if they were strings of binary digits
+     * for example 2 is 10 in binary and 7 is 111 in binary
+     
+     * 
