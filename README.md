@@ -113,6 +113,40 @@ type would be float conversion would be int(c)
       
 ###### Bitwise operator:-
      * Bitwise operators act on operands as if they were strings of binary digits
-     * for example 2 is 10 in binary and 7 is 111 in binary
-     
-     * 
+     * for example 2 is 10 in binary and 7 is 111 in binary   
+       1. '&' meaning 'and' operator in this both value should be True or False(0000 1010)and(0000 0100) is(0000 0000)
+       2. '|' meaning 'or' operator in this atleast one value should be true (0000 1010)or(0000 0100) is(0000 1110)
+       3. '-' meaning 'not' operator in this true value shows as false(0000 1010)not is(1111 0101)
+       4. '^' meaning 'XOR' operator in this if one value is 0 and 1 then the output would be 1 i.e. (0000 1110)
+       5. '>>' meaning 'Bitwise right shift' in this x>>2=2(0000 0010)
+       6. '<<' meaning 'Bitwise left shift' in this X<<2 = 40(0010 1000)
+
+###### Assignment operator:-
+     * It is use to assign values to variables.
+     * like a = 5 can be written as a += 5
+       1. '+' is 'a += 5'
+       2. '*' is 'a *= 5'
+       3. '/' is 'a/=5'
+       4. '%' is 'a%=5'
+       5. '//=' is 'a//=5'
+       6. '**=' is 'a**=5'
+ 
+###### Identity Operator:-
+     *  This operator is used to check if two values (or variables) are located on the same part of the memory. Two variables that are equal does not imply that they are identical.
+     * The operators are declared as 'is' and 'is not'
+         1. 'is' means if operators are identical then it returns as true value
+         2. 'is not' means if operators are not identical then it returns as false value
+         
+###### Membership operators:-
+     * Membership operator are used to test whether a value or variable is found in a sequence (string, list, tuple, set and dictionary) or not
+     * The operators are declared as 'in' and 'not in'
+        1. 'in' means that the value is available in the list
+        2. 'not in' means the value is not available in the list
+        
+## Python Flow Control:-
+
+   ##### if... else statement:-
+       * Decision making is required when we want to execute a code only if a certain condition is satisfied.
+       * syntax: if test expression:
+                     statement(s)
+       * In Python, the body of the if statement is indicated by the indentation. The body starts with an indentation and the          first unindented line marks the end.
