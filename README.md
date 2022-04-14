@@ -161,3 +161,10 @@ type would be float conversion would be int(c)
        * In Python, the body of the if statement is indicated by the indentation. 
        The body starts with an indentation and the
        first unindented line marks the end.
+       * syntax:
+          if test expression:
+          Body of if
+          else:
+          Body of else
+ #### if statement:-
+          
