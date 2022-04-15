@@ -166,5 +166,65 @@ type would be float conversion would be int(c)
           Body of if
           else:
           Body of else
- #### if statement:-
+ #### if...elif...else Statement:-
+         * The elif is short for else if. It allows us to check for multiple expressions.
+         * The if block can have only one else block. But it can have multiple elif blocks.
+ #### Python Nested if statements:-
+         * We can have a if...elif...else statement inside another if...elif...else statement. This is called nesting
+           in computer programming.
+           
+ ## For loop:-
+      * The for loop in Python is used to iterate over a sequence (list, tuple, string) or
+         other iterable objects. Iterating over a sequence is called traversal.
+      * syntax:
+            for val in sequence:
+            loop body
+   #### range function:
+         * We can generate a sequence of numbers using range() function
+         * We can also define the start, stop and step size as range(start, stop,step_size). 
+            step_size defaults to 1 if not provided
+         *   print(list(range(2, 8)))
+               print(list(range(2, 20, 3))
+   #### While loop:-
+         * The while loop in Python is used to iterate over a block of code as long as the test expression (condition)
+            is true.
+         * We generally use this loop when we don't know the number of times to iterate beforehand.
+         * syntax: while test_expression:
+                     Body of while
+  #### break and continue:-
+         * In Python, break and continue statements can alter the flow of a normal loop.
+         * Loops iterate over a block of code until the test expression is false, but
+            sometimes we wish to terminate the current iteration or even the whole loop without checking test expression.
+         * The break and continue statements are used in these cases.
+         * continue statement is used to skip the rest of the code inside a loop for the current iteration only.
+            Loop does not terminate but continues on with the next iteration.
+  #### pass:-
+         * In Python programming, the pass statement is a null statement.
+         * The difference between a comment and a pass statement in Python is 
+            that while the interpreter ignores a comment entirely, pass is not ignored.
+         * However, nothing happens when the pass is executed. It results in no operation.
+         
+  ## Functions:-
+         1. In Python, a function is a group of related statements that performs a specific task.
+         2. Functions help break our program into smaller and modular chunks.
+            As our program grows larger and larger, functions make it more organized and manageable.
+         3. Furthermore, it avoids repetition and makes the code reusable.
+         4. def function_name(parameters):
+	                  """docstring"""
+                     statement(s)
+         5. Keyword def that marks the start of the function header.
+         6. Parameters (arguments) through which we pass values to a function. They are optional.
+         7. A colon (:) to mark the end of the function header.
+         8. Optional documentation string (docstring) to describe what the function does.
+         9. One or more valid python statements that make up the function body. Statements must have
+            the same indentation level
+         10. An optional return statement to return a value from the function.
+         
+   #### Types of Functions:-
+      * Basically, we can divide functions into the following two types:
+            . Built-in functions - Functions that are built into Python.
+            . User-defined functions - Functions defined by the users themselves.
+            
+  
+     
           
